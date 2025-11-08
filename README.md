@@ -124,7 +124,7 @@ server/
    npm start
    ```
 
-## Project Structure
+## Complete Project Structure
 ```
 justice-emergency-response/
 ├── client/                 # Frontend React application
@@ -142,8 +142,17 @@ justice-emergency-response/
 │   ├── routes/             # API routes
 │   ├── services/           # Business logic
 │   └── utils/              # Utility functions
+├── testsprite_tests/       # Comprehensive test suite
 └── README.md               # Project documentation
 ```
+
+## Testing
+The project includes a comprehensive test suite in the `testsprite_tests/` directory covering:
+- User registration and authentication
+- Role-based access control
+- Hospital and ambulance functionality
+- Real-time communication
+- Emergency request workflows
 
 ## License
 MIT
